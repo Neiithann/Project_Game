@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - História e Curiosidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTE1IiBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgMTE1IDMwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMTUgMEgwdjMwaDExNVYwWk00Mi41IDEwLjVoLTd2OWg3di05Wm0yMiAwaC03djloN3YtOVptMTQgMGgtN3Y5aDd2LTlaTTE0IDEwaC03djloN3YtOVptMjIgMTBoLTd2OWg3di05Wm0yMiAwaC03djloN3YtOVptMTQgMGgtN3Y5aDd2LTlaTTE0IDIwaC03djloN3YtOVoiIGZpbGw9IiNlNTAwMDAiLz48L3N2Zz4=" alt="Netflix Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#historia" class="nav-link">História</a></li>
+                    <li class="nav-item"><a href="#curiosidades" class="nav-link">Curiosidades</a></li>
+                    <li class="nav-item"><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                    <li class="nav-item"><a href="#impacto" class="nav-link">Impacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">A História da Netflix</h1>
+            <p class="hero-subtitle">De locadora de DVDs a gigante do streaming</p>
+            <button class="cta-button" id="exploreBtn">Explorar</button>
+        </div>
+    </section>
+
+    <!-- História Section -->
+    <section id="historia" class="section">
+        <div class="container">
+            <h2 class="section-title">Surgimento e História</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1997</div>
+                    <div class="timeline-content">
+                        <h3>Fundação</h3>
+                        <p>Reed Hastings e Marc Randolph fundam a Netflix em Scotts Valley, Califórnia. Inicialmente, a empresa operava como um serviço de aluguel de DVDs pelo correio.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1999</div>
+                    <div class="timeline-content">
+                        <h3>Modelo de Assinatura</h3>
+                        <p>A Netflix introduz um modelo de assinatura mensal, eliminando as tarifas de atraso e multas que eram comuns nas locadoras tradicionais.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2007</div>
+                    <div class="timeline-content">
+                        <h3>Streaming</h3>
+                        <p>A empresa lança seu serviço de streaming, permitindo que os assinantes assistam a filmes e programas de TV diretamente em seus computadores.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2013</div>
+                    <div class="timeline-content">
+                        <h3>Produções Originais</h3>
+                        <p>A Netflix lança "House of Cards", sua primeira série original, marcando o início de seu investimento em conteúdo próprio.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2016</div>
+                    <div class="timeline-content">
+                        <h3>Expansão Global</h3>
+                        <p>A Netflix se torna disponível em mais de 190 países, tornando-se um serviço verdadeiramente global.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curiosidades Section -->
+    <section id="curiosidades" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Curiosidades</h2>
+            <div class="curiosidades-grid">
+                <div class="curiosidade-card">
+                    <div class="curiosidade-icon">🎬</div>
+                    <h3>Primeiro DVD Alugado</h3>
+                    <p>O primeiro DVD alugado pela Netflix foi "Beetlejuice" em 1998.</p>
+                </div>
+                <div class="curiosidade-card">
+                    <div class="curiosidade-icon">📊</div>
+                    <h3>Dados de Visualização</h3>
+                    <p>A Netflix não revela números exatos de visualização, usando métricas próprias como "horas assistidas".</p>
+                </div>
+                <div class="curiosidade-card">
+                    <div class="curiosidade-icon">🌍</div>
+                    <h3>Idiomas</h3>
+                    <p>O conteúdo da Netflix está disponível em mais de 30 idiomas diferentes.</p>
+                </div>
+                <div class="curiosidade-card">
+                    <div class="curiosidade-icon">💡</div>
+                    <h3>Ideia Original</h3>
+                    <p>A ideia da Netflix surgiu quando Reed Hastings foi multado por atrasar a devolução de um filme na locadora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo Section -->
+    <section id="catalogo" class="section">
+        <div class="container">
+            <h2 class="section-title">Principais Filmes e Séries</h2>
+            <div class="catalogo-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="series">Séries</button>
+                    <button class="tab-button" data-tab="filmes">Filmes</button>
+                </div>
+                <div class="tab-content">
+                    <div id="series" class="tab-pane active">
+                        <div class="catalogo-grid">
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>Stranger Things</h3>
+                                <p>Série de ficção científica que se tornou um fenômeno cultural.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>The Crown</h3>
+                                <p>Drama histórico sobre o reinado da Rainha Elizabeth II.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>La Casa de Papel</h3>
+                                <p>Série espanhola sobre um assalto à Casa da Moeda da Espanha.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>Bridgerton</h3>
+                                <p>Drama de época baseado nos romances de Julia Quinn.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="filmes" class="tab-pane">
+                        <div class="catalogo-grid">
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>Roma</h3>
+                                <p>Drama mexicano vencedor de três Oscars.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>Bird Box</h3>
+                                <p>Thriller pós-apocalíptico estrelado por Sandra Bullock.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>O Irlandês</h3>
+                                <p>Filme de crime dirigido por Martin Scorsese.</p>
+                            </div>
+                            <div class="catalogo-item">
+                                <div class="catalogo-img" style="background-color: #333;"></div>
+                                <h3>História de um Casamento</h3>
+                                <p>Drama que recebeu seis indicações ao Oscar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Section -->
+    <section id="impacto" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Impacto Cultural</h2>
+            <div class="impacto-content">
+                <div class="impacto-text">
+                    <p>A Netflix revolucionou a forma como consumimos entretenimento, popularizando o modelo de streaming e binge-watching (assistir a vários episódios de uma vez).</p>
+                    <p>A empresa também mudou a indústria cinematográfica e televisiva, investindo bilhões em produções originais e dando espaço para histórias que talvez não encontrassem lugar na TV tradicional.</p>
+                    <p>O modelo de negócios da Netflix inspirou o surgimento de diversos outros serviços de streaming, transformando completamente o ecossistema de mídia e entretenimento.</p>
+                </div>
+                <div class="impacto-stats">
+                    <div class="stat">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Países</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">200M+</div>
+                        <div class="stat-label">Assinantes</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15K+</div>
+                        <div class="stat-label">Títulos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Site informativo sobre a Netflix - Desenvolvido para fins educacionais</p>
+            <p>© 2023 - Todos os direitos da Netflix são reservados à Netflix, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
